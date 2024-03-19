@@ -1,0 +1,147 @@
+/* ==== General Content ==== */
+body{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+.container-fluid{
+    margin: 0px;
+    padding: 0px;
+}
+.card{
+    z-index: 999;
+    border-radius: 4px;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+}
+.card:hover{
+    transform: scale(1.02) !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+.card-img-overlay{
+    background: linear-gradient(to bottom, rgba(0,0,0,0.8) 0%,rgba(0,0,0,0.4) 50%);
+}
+.btn:active{
+    box-shadow: none;
+}
+.btn:focus {
+    box-shadow: none;
+}
+#scrollToTopBtn{
+    cursor: pointer;
+}
+/* ==== End General Content ==== */
+
+/*--- Begin ---*/
+
+
+/* ==== Header ==== */
+
+header{
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+}
+.navbar-brand .logo{
+    width: 100%;
+    margin-left: 10px;
+}
+.navbar-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav-item{
+    margin-right: 10px;
+    padding: 0px;
+    text-align: center;
+}
+.nav-item .nav-link{
+    color: wheat;
+}
+
+/*--- End Header ---*/
+
+/*--- Content ---*/
+main{
+    margin-top: calc(4% + 5em);
+}
+.overview{
+}
+.firstp p{
+    text-align: justify;
+}
+.firstp{
+    padding: 1rem;
+}
+.secondp{
+    padding: 1rem;
+    background-color: rgb(243, 243, 243);
+    border: 2px solid grey;
+}
+.secondp p{
+    text-align: justify;
+}
+
+/*----Footer-----*/
+
+footer{
+    width: 100%;
+    background-color: rgb(2, 36, 58);
+    color: white;
+}
+footer .container{
+    width: 100%;
+}
+footer .container .row{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+footer .container .row .rowf{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.rowf .row h2{
+    font-size: medium;
+    display: flex;
+    justify-content: center;
+}
+.rowf .row h2 a{
+    text-decoration: none;
+    color: rgb(44, 171, 230);
+}
+.rowf .row{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.footer-social{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+.footer-social a{
+    margin: 0px 2rem;
+    color: white;
+    font-size: small;
+}
+.footer-copyright{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-copyright a{
+    font-size: smaller;
+    text-decoration: none;
+    color: white;
+}
+/*----Footer-----*/
+
